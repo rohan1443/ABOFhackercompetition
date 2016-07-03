@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Abofmain = require('./components/Abofmain'); 
+var StickyApp = require('./components/StickyApp'); 
 
 var App = React.createClass({
   getInitialState: function(){
@@ -10,7 +10,7 @@ var App = React.createClass({
   render: function(){
     return (
       <div className="container-fluid body-container">
-        <Abofmain />
+        <StickyApp />
       </div>
     );
   }
